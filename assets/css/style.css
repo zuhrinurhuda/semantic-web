@@ -1,0 +1,8 @@
+.shadow {
+  box-shadow: 0 0 0 1px #d4d4d5 !important;
+}
+
+.img-profile {
+  width: 100px;
+  border-radius: 100px;
+}

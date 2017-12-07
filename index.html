@@ -4,89 +4,101 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Semantic Web</title>
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <![endif]-->
-
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.js"></script>
   </head>
   <body>
     <!-- Header -->
-    <header>
-      <nav>
-        <a href="">Home</a>
-        <a href="">About Me</a>
-        <a href="">Portfolio</a>
-        <a href="">Testimonials</a>
-        <a href="">Articles</a>
-        <a href="">Contact</a>
+    <header class="ui attached stackable menu">
+      <nav class="ui container">
+        <a href="" class="item"><i class="home icon"></i>Home</a>
+        <a href="" class="item"><i class="user outline icon"></i>About Me</a>
+        <a href="" class="item"><i class="folder open outline icon"></i>Portfolio</a>
+        <a href="" class="item"><i class="comments outline icon"></i>Testimonials</a>
+        <a href="" class="item"><i class="file text outline icon"></i>Articles</a>
+        <a href="" class="item"><i class="mail outline icon"></i>Contact</a>
+        <div class="right item">
+          <div class="ui icon input">
+            <input type="text" placeholder="Search...">
+            <i class="search icon"></i>
+          </div>
+        </div>
       </nav>
     </header>
     <!-- End Header -->
     <!-- Main -->
-    <main>
-      <section>
-        <h2>Hi, I'am Zuhri</h2>
-        <p>Full-Stack Web Developer candidate :)</p>
-      </section>
-
-      <section>
-        <h2>What I Do?</h2>
-        <article class="">
-          <h3>Front-End Design</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu eleifend ante, ut lobortis elit. Nunc eleifend ullamcorper nibh. Vestibulum et nulla quis neque rutrum cursus. Nulla sit amet justo sollicitudin, cursus nulla et, hendrerit augue. Maecenas feugiat erat et lacus convallis molestie. Donec feugiat lacus a sollicitudin semper. Mauris sit amet nisl est.</p>
-        </article>
-
-        <article class="">
-          <h3>Back-End Development</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu eleifend ante, ut lobortis elit. Nunc eleifend ullamcorper nibh. Vestibulum et nulla quis neque rutrum cursus. Nulla sit amet justo sollicitudin, cursus nulla et, hendrerit augue. Maecenas feugiat erat et lacus convallis molestie. Donec feugiat lacus a sollicitudin semper. Mauris sit amet nisl est.</p>
-        </article>
-
-        <article class="">
-          <h3>Website Optimize</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu eleifend ante, ut lobortis elit. Nunc eleifend ullamcorper nibh. Vestibulum et nulla quis neque rutrum cursus. Nulla sit amet justo sollicitudin, cursus nulla et, hendrerit augue. Maecenas feugiat erat et lacus convallis molestie. Donec feugiat lacus a sollicitudin semper. Mauris sit amet nisl est.</p>
-        </article>
-      </section>
-
-      <aside class="">
-        <h3>Testimonials</h3>
-
-        <section>
-          <h4>Davina Bonadilla</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu eleifend ante, ut lobortis elit. Nunc eleifend ullamcorper nibh.</p>
+    <main class="ui center aligned container">
+      <div class="ui celled grid">
+        <section class="sixteen wide column shadow">
+          <h2 class="ui header">Hi, I'am Zuhri</h2>
+          <p>Full-Stack Web Developer candidate :)</p>
         </section>
 
-        <section>
-          <h4>Asiyah Asyaima</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu eleifend ante, ut lobortis elit. Nunc eleifend ullamcorper nibh.</p>
-        </section>
+        <div class="twelve wide column ">
+          <section class="ui three column grid">
+            <h2 class="ui row centered header">What I Do?</h2>
+            <article class="column">
+              <h3>Front-End Design</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu eleifend ante, ut lobortis elit. Nunc eleifend ullamcorper nibh. Vestibulum et nulla quis neque rutrum cursus. Nulla sit amet justo sollicitudin, cursus nulla et, hendrerit augue. Maecenas feugiat erat et lacus convallis molestie. Donec feugiat lacus a sollicitudin semper.</p>
+            </article>
 
-        <section>
-          <h4>Uwais Al-Qorni</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu eleifend ante, ut lobortis elit. Nunc eleifend ullamcorper nibh.</p>
-        </section>
-      </aside>
+            <article class="column">
+              <h3>Back-End Development</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu eleifend ante, ut lobortis elit. Nunc eleifend ullamcorper nibh. Vestibulum et nulla quis neque rutrum cursus. Nulla sit amet justo sollicitudin, cursus nulla et, hendrerit augue. Maecenas feugiat erat et lacus convallis molestie. Donec feugiat lacus a sollicitudin semper.</p>
+            </article>
+
+            <article class="column">
+              <h3>Website Optimize</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu eleifend ante, ut lobortis elit. Nunc eleifend ullamcorper nibh. Vestibulum et nulla quis neque rutrum cursus. Nulla sit amet justo sollicitudin, cursus nulla et, hendrerit augue. Maecenas feugiat erat et lacus convallis molestie. Donec feugiat lacus a sollicitudin semper.</p>
+            </article>
+          </section>
+        </div>
+
+        <aside class="four wide column">
+          <h3>Testimonials</h3>
+
+          <section>
+            <h4>Davina Bonadilla</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu eleifend ante, ut lobortis elit. Nunc eleifend ullamcorper nibh.</p>
+          </section>
+
+          <section>
+            <h4>Asiyah Asyaima</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu eleifend ante, ut lobortis elit. Nunc eleifend ullamcorper nibh.</p>
+          </section>
+
+          <section>
+            <h4>Uwais Al-Qorni</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu eleifend ante, ut lobortis elit. Nunc eleifend ullamcorper nibh.</p>
+          </section>
+        </aside>
+      </div>
     </main>
     <!-- End Main -->
     <!-- Footer -->
-    <footer>
-      <section>
-        <h4>Footer 1</h4>
-        <figure>
-          <img src="/assets/img/zuhri.jpg" alt="Zuhri Nurhuda Profile Picture">
-          <figcaption>Zuhri Nurhuda</figcaption>
-        </figure>
-        <p></p>
-      </section>
+    <footer class="ui center aligned container">
+      <div class="ui celled three column grid">
+        <section class="column">
+          <h4>Footer 1</h4>
+          <figure>
+            <img src="/assets/img/zuhri.jpg" alt="Zuhri Nurhuda Profile Picture" class="img-profile">
+            <figcaption>Zuhri Nurhuda</figcaption>
+          </figure>
+          <p></p>
+        </section>
 
-      <section>
-        <h4>Footer 2</h4>
-        <p></p>
-      </section>
+        <section class="column">
+          <h4>Footer 2</h4>
+          <p></p>
+        </section>
 
-      <section>
-        <h4>Footer 3</h4>
-        <p></p>
-      </section>
+        <section class="column">
+          <h4>Footer 3</h4>
+          <p></p>
+        </section>
+      </div>
     </footer>
     <!-- End Footer -->
   </body>
